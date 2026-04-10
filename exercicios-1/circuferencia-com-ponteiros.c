@@ -14,10 +14,10 @@ double calcular_area(double *raio) {
 
 void exibir_mensagem(int *opcao, double *resultado){
     switch (*opcao) {
-        case 1:
+        case 1: // COMPRIMENTO
             printf("Resultado: %.5fcm", *resultado);
             break;
-        case 2:
+        case 2: // ÁREA
             printf("Resultado: %.5fcm**2", *resultado);
             break;
     }
